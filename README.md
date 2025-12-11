@@ -1,6 +1,7 @@
 Face Recognition Project
 
-Proyek ini bertujuan untuk melakukan face recognition menggunakan model Keras-Facenet serta pipeline encoding–training–recognition yang lengkap.
+Proyek ini bertujuan untuk melakukan face recognition menggunakan model 
+Keras-Facenet serta pipeline encoding–training–recognition yang lengkap.
 Pastikan seluruh persiapan sudah benar sebelum menjalankan project.
 
 ## Persiapan Lingkungan
@@ -100,8 +101,11 @@ project/
 │            └── *.jpg
 │
 ├── utils.py
-├── encoding.py
+├── encodings/
+│   └── encodings.pkl/
 ├── prepare_data.py
 ├── face_recognition.py
 ├── requirements.txt
 └── README.md
+
+
