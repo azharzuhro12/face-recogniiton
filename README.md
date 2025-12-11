@@ -14,19 +14,23 @@ Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul uta
   cd path/ke/proyek-anda
   ```
 
-2.Gunakan Python versi yang sesuai
+
+2. Gunakan Python versi yang sesuai
   
 Proyek ini menggunakan versi berikut:
-
+```
 Python 3.7.16
+```
 
-3.Pastikan environment Anda sesuai, atau buat virtual environment baru:
 
+3. Pastikan environment Anda sesuai, atau buat virtual environment baru:
+```
 python3.7 -m venv venv
 
 source venv/bin/activate     # Mac / Linux
 
 venv\Scripts\activate        # Windows
+```
 
 jika pakai conda:
 ```
@@ -37,7 +41,7 @@ conda create --name face-rec python=3.7
 conda activate face-rec
 ```
 
-4.Install Dependencies
+4. Install Dependencies
 
 Download seluruh dependencies yang sudah disediakan pada file requirements.txt:
 ```
