@@ -9,8 +9,10 @@ Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul uta
 
 1. Pastikan Anda berada di path proyek yang benar
 
-Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
-cd path/ke/proyek-anda
+  Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
+  ```
+  cd path/ke/proyek-anda
+  ```
 
 2.Gunakan Python versi yang sesuai
   
