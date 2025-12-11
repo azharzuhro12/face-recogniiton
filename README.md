@@ -25,13 +25,13 @@ source venv/bin/activate     # Mac / Linux
 venv\Scripts\activate        # Windows
 
 jika pakai conda:
-''' 
+```
 conda create --name face-rec python=3.7 
-'''
+```
 
-'''
+```
 conda activate face-rec
-'''
+```
 
 3. Install Dependencies
 
@@ -67,25 +67,36 @@ Tempatkan folder data wajah di:
 Setelah seluruh persiapan selesai, jalankan langkah-langkah berikut:
 
 1. Menjalankan utils.py
+   ```
+   utils.py
+   ```
 
 Untuk memuat fungsi pendukung seperti normalisasi, ekstraksi wajah, dan preprocessing.
 
 python utils.py
 
 2. Menjalankan encoding.py
+   ```
+   encoding.py
+   ```
 
 Script ini membuat encodings.pkl dari setiap wajah dalam dataset.
 
 python encoding.py
 
 3. Menjalankan prepare_data.py
+  ```
+  prepare_data.py
+  ```
 
 Dipakai untuk mempersiapkan data tambahan, struktur folder, atau proses lain sebelum training/prediksi.
 
 python prepare_data.py
 
 4. Menjalankan face_recognition.py
-
+  ```
+  face_recognition.py
+  ```
 Script utama untuk mendeteksi wajah, menghasilkan encoding, dan melakukan prediksi identitas.
 
 python face_recognition.py
@@ -95,15 +106,15 @@ python face_recognition.py
   project/
   │
   ├── keras-facenet.h5
-  │
+  ├── encodings/
+  │   └── encodings.pkl
   ├── data/
   │   └── faces/
   │       └── person_name/
   │            └── *.jpg
   │
   ├── utils.py
-  ├── encodings/
-  │   └── encodings.pkl/
+  ├── encoding.py
   ├── prepare_data.py
   ├── face_recognition.py
   ├── requirements.txt
