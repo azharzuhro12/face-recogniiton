@@ -49,27 +49,12 @@ pip install -r requirements.txt
 ```
 
 ## Download Model & Dataset
-1.Download Model keras-facenet.h5
-
-Masukkan link model di sini:
-
+model:
 Link model: https://drive.google.com/file/d/1v2XQXSTJjjSOm6ElAP3ZUGOaE3CJBdJ0/view?usp=drive_link
 
-
-Letakkan file tersebut di folder:
-
-/models/keras-facenet.h5
-
-2.Download Data Faces
-
-Masukkan link dataset di sini:
-
+dastet:
 Link dataset: https://drive.google.com/drive/folders/1mIN-v7M3Rnem0J6zDhKMFUQO_IwNlknL?usp=drive_link
 
-
-Tempatkan folder data wajah di:
-
-/data/faces/
 
 ## Cara Menjalankan Proyek
 
@@ -107,9 +92,9 @@ python prepare_data.py
   face_recognition.py
   ```
 Script utama untuk mendeteksi wajah, menghasilkan encoding, dan melakukan prediksi identitas.
-
-python face_recognition.py
-
+  ```
+  python face_recognition.py
+  ```
 ## Struktur Folder
 ```
   project/
