@@ -1,18 +1,22 @@
 # Face Recognition Project
 
-Proyek ini bertujuan untuk melakukan face recognition menggunakan model 
-Keras-Facenet serta pipeline encoding–training–recognition yang lengkap.
-Pastikan seluruh persiapan sudah benar sebelum menjalankan project.
+Proyek ini menyajikan implementasi pipeline pemrosesan wajah yang terstruktur dan modular menggunakan Keras-Facenet, mulai dari ekstraksi fitur, pembuatan embedding, hingga eksekusi pipeline inferensi.
+Seluruh komponen disusun agar mudah direproduksi, ringan dijalankan, serta kompatibel dengan workflow pengembangan berbasis Python.
+
+Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul utama
 
 ## Persiapan Lingkungan
-1. Pastikan Anda berada di path proyek yang benar
+- Pastikan Anda berada di path proyek yang benar
 Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
 cd path/ke/proyek-anda
 
-2. Gunakan Python versi yang sesuai
+- Gunakan Python versi yang sesuai
+  
 Proyek ini menggunakan versi berikut:
+
 Python 3.7.16
-Pastikan environment Anda sesuai, atau buat virtual environment baru:
+
+- Pastikan environment Anda sesuai, atau buat virtual environment baru:
 
 python3.7 -m venv venv
 
