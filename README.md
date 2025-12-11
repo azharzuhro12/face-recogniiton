@@ -7,7 +7,7 @@ Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul uta
 
 ## Persiapan Lingkungan
 
-1.Pastikan Anda berada di path proyek yang benar
+1. Pastikan Anda berada di path proyek yang benar
 
 Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
 cd path/ke/proyek-anda
