@@ -1,4 +1,4 @@
-Face Recognition Project
+# Face Recognition Project
 
 Proyek ini bertujuan untuk melakukan face recognition menggunakan model 
 Keras-Facenet serta pipeline encoding–training–recognition yang lengkap.
@@ -6,22 +6,18 @@ Pastikan seluruh persiapan sudah benar sebelum menjalankan project.
 
 ## Persiapan Lingkungan
 1. Pastikan Anda berada di path proyek yang benar
-
 Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
-
 cd path/ke/proyek-anda
 
 2. Gunakan Python versi yang sesuai
-
 Proyek ini menggunakan versi berikut:
-
 Python 3.7.16
-
-
 Pastikan environment Anda sesuai, atau buat virtual environment baru:
 
 python3.7 -m venv venv
+
 source venv/bin/activate     # Mac / Linux
+
 venv\Scripts\activate        # Windows
 
 jika pakai conda:
