@@ -92,21 +92,21 @@ python face_recognition.py
 
 ## Struktur Folder
 '''
-project/
-│
-├── keras-facenet.h5
-│
-├── data/
-│   └── faces/
-│       └── person_name/
-│            └── *.jpg
-│
-├── utils.py
-├── encodings/
-│   └── encodings.pkl/
-├── prepare_data.py
-├── face_recognition.py
-├── requirements.txt
-└── README.md
+  project/
+  │
+  ├── keras-facenet.h5
+  │
+  ├── data/
+  │   └── faces/
+  │       └── person_name/
+  │            └── *.jpg
+  │
+  ├── utils.py
+  ├── encodings/
+  │   └── encodings.pkl/
+  ├── prepare_data.py
+  ├── face_recognition.py
+  ├── requirements.txt
+  └── README.md
 '''
 
