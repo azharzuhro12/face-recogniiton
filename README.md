@@ -91,7 +91,7 @@ Script utama untuk mendeteksi wajah, menghasilkan encoding, dan melakukan predik
 python face_recognition.py
 
 ## Struktur Folder
-'''
+```
   project/
   │
   ├── keras-facenet.h5
@@ -108,5 +108,5 @@ python face_recognition.py
   ├── face_recognition.py
   ├── requirements.txt
   └── README.md
-'''
+```
 
