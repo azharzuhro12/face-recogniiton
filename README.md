@@ -60,7 +60,7 @@ Link dataset: https://drive.google.com/drive/folders/1mIN-v7M3Rnem0J6zDhKMFUQO_I
 
 Tempatkan folder data wajah di:
 
-/dataset/faces/
+/data/faces/
 
 ## Cara Menjalankan Proyek
 
@@ -91,6 +91,7 @@ Script utama untuk mendeteksi wajah, menghasilkan encoding, dan melakukan predik
 python face_recognition.py
 
 ## Struktur Folder
+'''
 project/
 │
 ├── keras-facenet.h5
@@ -107,5 +108,5 @@ project/
 ├── face_recognition.py
 ├── requirements.txt
 └── README.md
-
+'''
 
