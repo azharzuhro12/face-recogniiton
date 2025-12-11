@@ -1,9 +1,8 @@
 # Face Recognition Project
-
+Face recognition merupakan teknologi yang digunakan untuk melakukan identifikasi atau verifikasi identitas seseorang berdasarkan fitur wajahnya. Sistem ini bekerja dengan cara mendeteksi wajah, mengekstraksi ciri-ciri unik (seperti bentuk mata, hidung, jarak antar fitur, dan kontur wajah), lalu membandingkannya dengan data wajah yang sudah tersimpan sebelumnya.
 Proyek ini menyajikan implementasi pipeline pemrosesan wajah yang terstruktur dan modular menggunakan Keras-Facenet, mulai dari ekstraksi fitur, pembuatan embedding, hingga eksekusi pipeline inferensi.
 Seluruh komponen disusun agar mudah direproduksi, ringan dijalankan, serta kompatibel dengan workflow pengembangan berbasis Python.
 
-Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul utama
 
 ## Persiapan Lingkungan
 
