@@ -6,17 +6,19 @@ Seluruh komponen disusun agar mudah direproduksi, ringan dijalankan, serta kompa
 Pastikan seluruh persiapan lingkungan telah sesuai sebelum menjalankan modul utama
 
 ## Persiapan Lingkungan
-- Pastikan Anda berada di path proyek yang benar
+
+1.Pastikan Anda berada di path proyek yang benar
+
 Sebelum memulai, buka terminal dan arahkan ke folder proyek ini:
 cd path/ke/proyek-anda
 
-- Gunakan Python versi yang sesuai
+2.Gunakan Python versi yang sesuai
   
 Proyek ini menggunakan versi berikut:
 
 Python 3.7.16
 
-- Pastikan environment Anda sesuai, atau buat virtual environment baru:
+3.Pastikan environment Anda sesuai, atau buat virtual environment baru:
 
 python3.7 -m venv venv
 
@@ -33,14 +35,15 @@ conda create --name face-rec python=3.7
 conda activate face-rec
 ```
 
-3. Install Dependencies
+4.Install Dependencies
 
 Download seluruh dependencies yang sudah disediakan pada file requirements.txt:
-
+```
 pip install -r requirements.txt
+```
 
 ## Download Model & Dataset
-1. Download Model keras-facenet.h5
+1.Download Model keras-facenet.h5
 
 Masukkan link model di sini:
 
@@ -51,7 +54,7 @@ Letakkan file tersebut di folder:
 
 /models/keras-facenet.h5
 
-2. Download Data Faces
+2.Download Data Faces
 
 Masukkan link dataset di sini:
 
@@ -66,7 +69,7 @@ Tempatkan folder data wajah di:
 
 Setelah seluruh persiapan selesai, jalankan langkah-langkah berikut:
 
-1. Menjalankan utils.py
+1.Menjalankan utils.py
    ```
    utils.py
    ```
@@ -75,7 +78,7 @@ Untuk memuat fungsi pendukung seperti normalisasi, ekstraksi wajah, dan preproce
 
 python utils.py
 
-2. Menjalankan encoding.py
+2.Menjalankan encoding.py
    ```
    encoding.py
    ```
@@ -84,7 +87,7 @@ Script ini membuat encodings.pkl dari setiap wajah dalam dataset.
 
 python encoding.py
 
-3. Menjalankan prepare_data.py
+3.Menjalankan prepare_data.py
   ```
   prepare_data.py
   ```
@@ -93,7 +96,7 @@ Dipakai untuk mempersiapkan data tambahan, struktur folder, atau proses lain seb
 
 python prepare_data.py
 
-4. Menjalankan face_recognition.py
+4.Menjalankan face_recognition.py
   ```
   face_recognition.py
   ```
