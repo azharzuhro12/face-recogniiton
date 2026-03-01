@@ -47,17 +47,11 @@ Download seluruh dependencies yang sudah disediakan pada file requirements.txt:
 pip install -r requirements.txt
 ```
 
-## Download Model & Dataset
+## Download Model 
 
 silahkan download model:
 
 Link : https://drive.google.com/file/d/1v2XQXSTJjjSOm6ElAP3ZUGOaE3CJBdJ0/view?usp=drive_link
-
-
-silahkan download dataset:
-
-Link : https://drive.google.com/drive/folders/1mIN-v7M3Rnem0J6zDhKMFUQO_IwNlknL?usp=drive_link
-
 
 ## Cara Menjalankan Proyek
 
