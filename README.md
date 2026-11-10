@@ -19,7 +19,6 @@ Sistem pengenalan wajah (*face recognition*) real-time berbasis Deep Learning me
 - [Download Pretrained Model](#-download-pretrained-model)
 - [Panduan Penggunaan](#-panduan-penggunaan)
 - [Konfigurasi & Hyperparameter](#-konfigurasi--hyperparameter)
-- [Troubleshooting & FAQ](#-troubleshooting--faq)
 - [Lisensi & Kontribusi](#-lisensi--kontribusi)
 
 ---
@@ -213,29 +212,6 @@ Anda dapat menyesuaikan parameter deteksi dan toleransi pencocokan langsung pada
 
 ---
 
-## ❓ Troubleshooting & FAQ
-
-<details>
-<summary><b>1. Error: <code>no frame:(</code> atau kamera tidak terbuka</b></summary>
-Pastikan webcam tidak sedang digunakan oleh aplikasi lain (seperti Zoom, Google Meet, dll). Jika menggunakan kamera eksternal (USB), ubah `cv2.VideoCapture(0)` menjadi `cv2.VideoCapture(1)` di <code>face_recognizer.py</code>.
-</details>
-
-<details>
-<summary><b>2. Error: <code>FileNotFoundError: facenet_keras.h5</code></b></summary>
-Pastikan Anda sudah mengunduh model dari Google Drive dan menyimpannya tepat di folder utama repositori dengan nama persis <code>facenet_keras.h5</code>.
-</details>
-
-<details>
-<summary><b>3. Wajah yang didaftarkan sering terdeteksi sebagai <code>unknown</code></b></summary>
-Tingkatkan nilai <code>recognition_t</code> secara bertahap (misal dari <code>0.4</code> ke <code>0.45</code> atau <code>0.5</code>) pada fungsi <code>recognize()</code> di <code>face_recognizer.py</code>, atau tambahkan variasi foto pada dataset wajah orang tersebut.
-</details>
-
-<details>
-<summary><b>4. Mengapa tidak perlu menjalankan <code>utils.py</code> langsung?</b></summary>
-File <code>utils.py</code> berfungsi sebagai modul pendukung (kumpulan fungsi utilitas seperti normalisasi citra dan konversi pickle) yang diimpor secara otomatis oleh <code>encoding.py</code> dan <code>face_recognizer.py</code>.
-</details>
-
----
 
 ## 📄 Lisensi & Kontribusi
 
